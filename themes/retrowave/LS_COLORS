@@ -1,0 +1,137 @@
+#################################################################
+##  File extension -> color mappings to be used by GNU `ls`.   ##
+##                                                             ##
+##  Use `dircolors -b LS_COLORS > lscolors.zsh` to generate    ##
+##  a shell code to be sourced by your shell.                  ##
+##                                                             ##
+##  Run `ls` as `alias ls="ls -a --color"`.                    ##
+#################################################################
+
+################
+# Default Keys #
+################
+
+DIR                   38;5;14;1
+LINK                  38;5;117
+# Broken links
+ORPHAN                38;5;210;3
+DOOR                  38;5;127
+EXEC                  38;5;047
+FIFO                  38;5;126
+FILE                  0
+
+
+#######################
+# General File System #
+#######################
+
+# Archives
+.gz                   38;5;215
+.zip                  38;5;216
+.tar                  38;5;215
+
+# Images
+.iso                  38;5;221
+
+
+############
+# Security #
+############
+
+# Encrypted Files
+.gpg                  38;5;192;3
+.pgp                  38;5;192;3
+
+# Keys
+.pem                  38;5;192;3
+*id_rsa               38;5;192;3
+*id_dsa               38;5;192;3
+*id_ecdsa             38;5;192;3
+*id_ed25519           38;5;192;3
+.pub                  38;5;194
+
+
+############
+# Software #
+############
+
+# Config
+.yaml                 38;5;228
+
+# Python
+.py                   38;5;135
+.ipynb                38;5;135
+
+# Web
+.html                 38;5;141
+.js                   38;5;141
+.css                  38;5;141
+
+# Version Control
+.git                  38;5;063
+.gitignore            38;5;063
+
+# Documentation
+*README               38;5;069
+*LICENSE              38;5;069
+*COPYING              38;5;069
+*INSTALL              38;5;069
+*COPYRIGHT            38;5;069
+*AUTHORS              38;5;069
+*HISTORY              38;5;069
+*CONTRIBUTORS         38;5;069
+*PATENTS              38;5;069
+*VERSION              38;5;069
+*NOTICE               38;5;069
+*CHANGES              38;5;069
+
+#############
+# Documents #
+#############
+.txt                  38;5;230
+.md                   38;5;229
+.pdf                  38;5;228
+.epub                 38;5;228
+
+
+#########
+# Media #
+#########
+
+# Images
+.png                  38;5;213
+.JPG                  38;5;219
+.jpg                  38;5;219
+.bmp                  38;5;219
+.tiff                 38;5;219
+.tif                  38;5;219
+.TIFF                 38;5;219
+.gif                  38;5;219
+.ico                  38;5;219
+.jpeg                 38;5;219
+.psd                  38;5;219
+
+# Video
+.mp4                  38;5;134
+
+# Audio
+.mp3                  38;5;098
+.wav                  38;5;098
+
+
+#################
+# Miscellaneous #
+#################
+
+# Shell files
+.zshrc                38;5;122
+.zsh                  38;5;117
+.zsh-theme            38;5;117
+.sh                   38;5;177
+
+# Fonts
+.ttf                  38;5;063
+.otf                  38;5;063
+
+# Mac OS 
+.DS_Store             38;5;240

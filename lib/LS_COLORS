@@ -1,0 +1,20 @@
+#################################################################
+##  File extension -> color mappings to be used by GNU `ls`.   ##
+##                                                             ##
+##  Use `dircolors -b LS_COLORS > lscolors.zsh` to generate    ##
+##  a shell code to be sourced by your shell.                  ##
+##                                                             ##
+##  Run `ls` as `alias ls="ls -a --color"`.                    ##
+#################################################################
+
+################
+# Default Keys #
+################
+
+DIR                   38;5;14;1
+DOOR                  38;5;127
+EXEC                  38;5;047
+FIFO                  38;5;126
+FILE                  0
+
+
